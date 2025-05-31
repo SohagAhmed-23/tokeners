@@ -1,0 +1,137 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 147px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 52px;
+}
+
+.btn-green {
+  background-color: #22A75D;
+  color: #FFFFFF;
+}
+
+.btn-light {
+  background-color: #ff0000;
+  color: #191B21;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem;
+}
+.navbar .logo img {
+  width: 239px;
+  height: 35px;
+  object-fit: contain;
+}
+.navbar .navigation-menu {
+  display: flex;
+  align-items: center;
+  gap: 105px;
+}
+.navbar .navigation-menu .page-info ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration-style: solid;
+}
+.navbar .navigation-menu .page-info ul a {
+  color: #c90000;
+  text-underline-offset: 2px;
+}
+.navbar .login {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.navbar .login ul {
+  list-style: none;
+}
+.navbar .login ul a {
+  color: #c90000;
+  text-underline-offset: 2px;
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.hero-section .text-container {
+  width: 39%;
+  min-width: 300px;
+}
+.hero-section .text-container .text-inner {
+  padding: 90px 2.5rem;
+}
+.hero-section .text-container .text-inner .hero-intro {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  color: #2278D4;
+  margin-bottom: 20px;
+}
+.hero-section .text-container .text-inner .hero-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #191B21;
+  margin-bottom: 30px;
+}
+.hero-section .text-container .text-inner .hero-description {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #191B21;
+  margin-bottom: 45px;
+}
+.hero-section .img-container {
+  width: 57%;
+  min-width: 600px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  position: relative;
+}
+.hero-section .img-container .hero-img1 {
+  position: absolute;
+  width: 420px;
+  max-width: 80%;
+  left: 300x;
+  z-index: 10000;
+}
+.hero-section .img-container .hero-img2 {
+  position: absolute;
+  width: 600px;
+  max-width: 100%;
+  right: -150px;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=style.css.map */
