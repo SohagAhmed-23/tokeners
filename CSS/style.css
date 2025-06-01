@@ -524,6 +524,8 @@ body {
   margin-bottom: 5px;
 }
 .parsale-details .parsale-bg {
+  width: 100%;
+  overflow-x: hidden;
   position: absolute;
   z-index: -9999;
   top: 0px;
@@ -595,6 +597,92 @@ body {
   line-height: 20px;
   color: #191B21;
   opacity: 80%;
+}
+
+.footer-details {
+  position: relative;
+  color: #F2F0F4;
+}
+.footer-details .footer-bg {
+  position: absolute;
+  top: -30px;
+  z-index: -10000;
+  width: 100%;
+  overflow: hidden;
+}
+.footer-details .footer-content .footer-credits {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 6px;
+  opacity: 50%;
+}
+.footer-details .footer-content .footer-credits img {
+  width: 21px;
+  height: 20px;
+}
+.footer-details .footer-content .footer-credits p {
+  margin: 0;
+}
+.footer-details .footer-content .footer-links {
+  width: 80%;
+  max-width: 80%;
+  padding-top: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  margin: 0px auto;
+}
+.footer-details .footer-content .footer-links .footer-link-item {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-underline-offset: 2px;
+}
+.footer-details .footer-content .footer-links .footer-separator {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: -2%;
+  opacity: 16%;
+}
+.footer-details .footer-content .footer-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 140px;
+}
+.footer-details .footer-content .footer-main .footer-reserved {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.footer-details .footer-content .footer-main .footer-reserved .footer-reserved-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: right;
+  margin: 0;
+}
+.footer-details .footer-content .footer-social-icons {
+  gap: 10px;
+}
+.footer-details .footer-content .footer-social-icons .footer-icon {
+  min-width: 10px;
+  min-height: 10px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
