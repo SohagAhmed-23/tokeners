@@ -322,6 +322,7 @@ body {
     }
 
 }
+
 .feature-content {
     display: flex;
     justify-content: center;
@@ -329,7 +330,7 @@ body {
     padding: 80px 0;
     color: #F2F0F4;
     width: 80%;
-     margin: 0 auto;
+    margin: 0 auto;
     gap: 20px;
 
     .w-logo {
@@ -343,6 +344,7 @@ body {
             width: 55px;
             height: 34px;
         }
+
         .feature-title {
             font-weight: 500;
             font-size: 48px;
@@ -350,18 +352,20 @@ body {
             color: #F7F5F9;
         }
     }
+
     .text-info {
-        width:55%;
-        
+        width: 55%;
+
 
         .content-heading {
             font-weight: 500;
             font-size: 16px;
             line-height: 20px;
-            color:#FFFFFF;
+            color: #FFFFFF;
             opacity: 60%;
             margin-bottom: 20px;
         }
+
         .content-para {
             max-width: 80%;
             font-weight: 500;
@@ -369,11 +373,13 @@ body {
             line-height: 24px;
             opacity: 60%;
         }
+
         .text-bold {
             font-weight: 900;
         }
     }
 }
+
 .quarter-section {
     max-width: 80%;
     margin-left: auto;
@@ -382,9 +388,10 @@ body {
 
     .quarterList {
         display: flex;
-       
+
         gap: 322px;
     }
+
     .box {
         margin-left: 7px;
         width: 9px;
@@ -392,54 +399,63 @@ body {
         border-radius: 50%;
         background-color: #22A75D;
     }
+
     .quarter-number {
         font-weight: 700;
         font-size: 16px;
         line-height: 54px;
         color: #22A75D;
     }
+
     .quarter-year {
         font-weight: 500;
         font-size: 36px;
         line-height: 54px;
         letter-spacing: 0%;
     }
+
     .quarter-img {
         margin-left: 10px;
     }
-   .quarter-air-image {
-    position: absolute;
-    width: 257px;
-    height: 155px;
-    top:2880.74px;
-    left: 1590px;
-}
-.quarter-details {
-    min-width: 100%;
-    padding-top:100px; 
-    display: flex;
-    justify-content:flex-start;
-    gap:130px;
-    .quarter-step-number{
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 34px;
-        color: #2278D4;
+
+    .quarter-air-image {
+        position: absolute;
+        width: 257px;
+        height: 155px;
+        top: 2880.74px;
+        left: 1590px;
     }
-    .quarter-step-description {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    opacity: 70%;
-    color:#191B21;
+
+    .quarter-details {
+        min-width: 100%;
+        padding-top: 100px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 130px;
+
+        .quarter-step-number {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 34px;
+            color: #2278D4;
         }
+
+        .quarter-step-description {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            opacity: 70%;
+            color: #191B21;
+        }
+    }
+
+    .quarter-content-item {
+        display: flex;
+        justify-content: flex-start;
+        gap: 20px;
+    }
 }
-.quarter-content-item {
-    display: flex;
-    justify-content: flex-start;
-    gap:20px;
-}
-}
+
 .tokners-section {
     position: relative;
 
@@ -459,16 +475,18 @@ body {
         }
     }
 }
+
 .tokeners-details {
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top:100px;
-    gap:150px;
+    padding-top: 100px;
+    gap: 150px;
 
     width: 80%;
-     margin: 0 auto;
+    margin: 0 auto;
     width: 80%;
+
     .tokners-content {
         width: 45%;
         min-width: 45%;
@@ -476,8 +494,8 @@ body {
         flex-direction: column;
         align-items: flex-start;
         align-content: flex-start;
-          margin-top:450px;
-       
+        margin-top: 450px;
+
         .tokners-heading {
             font-weight: 500;
             font-size: 36px;
@@ -485,8 +503,9 @@ body {
             letter-spacing: 0%;
             margin-bottom: 30px;
         }
+
         .tokners-content-block {
-            
+
 
             .tokners-highlight {
                 font-weight: 700;
@@ -496,46 +515,206 @@ body {
                 margin-top: 13px;
                 margin-bottom: 13px;
             }
-            .tokners-paragraph{
-                 font-weight: 300;
+
+            .tokners-paragraph {
+                font-weight: 300;
                 font-size: 16px;
                 line-height: 24px;
                 opacity: 60%;
             }
         }
     }
-   
-    .tokners-images{
-         margin-top:300px;
+
+    .tokners-images {
+        margin-top: 300px;
         width: 777px;
         height: 900px;
         border-radius: 25px;
-        color: #F7F5F9;
-        background-color: #ffffff;
+        background-color: #F7F5F9;
         position: relative;
+
         .cloud-1 {
             width: 230px;
-           height: 147px;
-           position: absolute;
-           top:85px;
-           left: 100px;
-        }
-        .cloud-2{
-            width: 371px;
-           height: 237px;
+            height: 147px;
             position: absolute;
-            right:-50px;
+            top: 85px;
+            left: 100px;
+        }
+
+        .cloud-2 {
+            width: 371px;
+            height: 237px;
+            position: absolute;
+            right: -50px;
             bottom: 160px;
         }
 
         .rocket {
-             position: absolute;
-            left:-250px;
+            position: absolute;
+            left: -250px;
             bottom: -140px;
 
         }
-      
+
     }
+
+
+}
+
+.parsale-details {
+    position: relative;
     
-    
+    .parsale-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 380px;
+        margin-bottom:100px;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 54px;
+        color:#F7F5F9
+    }
+    .parsale-img-left {
+        width: 249px;
+        height: 442px;
+        position: absolute;
+        left: 530px;
+        top:780px;
+
+    }
+
+      .parsale-img-right {
+        width: 249px;
+        height: 442px;
+        position: absolute;
+        left: 1100px;
+         top:780px;
+
+    }
+
+   .how-to-buy {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  align-items: center;
+    align-content: center;
+    text-align: center;
+
+    .how-to-buy-title {
+        color: #F7F5F9;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 54px;
+        padding-bottom: 40px;
+    }
+    .how-to-buy-content {
+        color: #F7F5F9;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px; 
+        .arrow-down{
+            width: 24px;
+            height:24px;
+        }
+    }
+    .how-to-buy-para {
+        margin-bottom: 5px;
+    }
+}
+
+.parsale-bg {
+    position: absolute;
+    z-index: -9999;
+    top:0px;
+
+}
+
+}
+
+.phase-container {
+    width: 85%;
+    // margin: 400px auto;
+    margin-left: auto;
+    margin-right: auto;
+    @include flex-center;
+    gap: 30px;
+
+    .phase-2 {
+        position: relative;
+        top: 55px;
+    }
+
+    .phase {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 511px;
+        height: 585px;
+        border-radius: 25px;
+        background-color: #FFFFFF; // need change when the background color is changed.
+        gap: 75px;
+
+        .phase-info {
+            gap: 12px;
+
+            .phase-number {
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 54px;
+                color: #191B21
+            }
+
+            .date-number {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: #191B21;
+                opacity: 80%;
+
+            }
+
+        }
+
+        .phase-price {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .phase-tokens {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 20px;
+                color: #191B21;
+                margin-bottom: 25px;
+            }
+
+            .soft-cap {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: #191B21;
+                opacity: 80%;
+
+            }
+
+            .hard-cap {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: #191B21;
+                opacity: 80%;
+
+            }
+
+
+        }
+
+    }
+
+
+
 }

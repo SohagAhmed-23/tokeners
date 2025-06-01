@@ -443,8 +443,7 @@ body {
   width: 777px;
   height: 900px;
   border-radius: 25px;
-  color: #F7F5F9;
-  background-color: #ffffff;
+  background-color: #F7F5F9;
   position: relative;
 }
 .tokeners-details .tokners-images .cloud-1 {
@@ -465,6 +464,137 @@ body {
   position: absolute;
   left: -250px;
   bottom: -140px;
+}
+
+.parsale-details {
+  position: relative;
+}
+.parsale-details .parsale-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 380px;
+  margin-bottom: 100px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 54px;
+  color: #F7F5F9;
+}
+.parsale-details .parsale-img-left {
+  width: 249px;
+  height: 442px;
+  position: absolute;
+  left: 530px;
+  top: 780px;
+}
+.parsale-details .parsale-img-right {
+  width: 249px;
+  height: 442px;
+  position: absolute;
+  left: 1100px;
+  top: 780px;
+}
+.parsale-details .how-to-buy {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+.parsale-details .how-to-buy .how-to-buy-title {
+  color: #F7F5F9;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  padding-bottom: 40px;
+}
+.parsale-details .how-to-buy .how-to-buy-content {
+  color: #F7F5F9;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.parsale-details .how-to-buy .how-to-buy-content .arrow-down {
+  width: 24px;
+  height: 24px;
+}
+.parsale-details .how-to-buy .how-to-buy-para {
+  margin-bottom: 5px;
+}
+.parsale-details .parsale-bg {
+  position: absolute;
+  z-index: -9999;
+  top: 0px;
+}
+
+.phase-container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.phase-container .phase-2 {
+  position: relative;
+  top: 55px;
+}
+.phase-container .phase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 511px;
+  height: 585px;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+  gap: 75px;
+}
+.phase-container .phase .phase-info {
+  gap: 12px;
+}
+.phase-container .phase .phase-info .phase-number {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 54px;
+  color: #191B21;
+}
+.phase-container .phase .phase-info .date-number {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #191B21;
+  opacity: 80%;
+}
+.phase-container .phase .phase-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.phase-container .phase .phase-price .phase-tokens {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #191B21;
+  margin-bottom: 25px;
+}
+.phase-container .phase .phase-price .soft-cap {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #191B21;
+  opacity: 80%;
+}
+.phase-container .phase .phase-price .hard-cap {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #191B21;
+  opacity: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */
