@@ -563,73 +563,77 @@ body {
 
 .parsale-details {
     position: relative;
-    
+
     .parsale-title {
         display: flex;
         justify-content: center;
         align-items: center;
         padding-top: 380px;
-        margin-bottom:100px;
+        margin-bottom: 100px;
         font-weight: 500;
         font-size: 48px;
         line-height: 54px;
-        color:#F7F5F9
+        color: #F7F5F9
     }
+
     .parsale-img-left {
         width: 249px;
         height: 442px;
         position: absolute;
         left: 530px;
-        top:780px;
+        top: 780px;
 
     }
 
-      .parsale-img-right {
+    .parsale-img-right {
         width: 249px;
         height: 442px;
         position: absolute;
         left: 1100px;
-         top:780px;
+        top: 780px;
 
     }
 
-   .how-to-buy {
-    margin-top: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  align-items: center;
-    align-content: center;
-    text-align: center;
+    .how-to-buy {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
 
-    .how-to-buy-title {
-        color: #F7F5F9;
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 54px;
-        padding-bottom: 40px;
-    }
-    .how-to-buy-content {
-        color: #F7F5F9;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 20px; 
-        .arrow-down{
-            width: 24px;
-            height:24px;
+        .how-to-buy-title {
+            color: #F7F5F9;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 54px;
+            padding-bottom: 40px;
+        }
+
+        .how-to-buy-content {
+            color: #F7F5F9;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+
+            .arrow-down {
+                width: 24px;
+                height: 24px;
+            }
+        }
+
+        .how-to-buy-para {
+            margin-bottom: 5px;
         }
     }
-    .how-to-buy-para {
-        margin-bottom: 5px;
+
+    .parsale-bg {
+        position: absolute;
+        z-index: -9999;
+        top: 0px;
+
     }
-}
-
-.parsale-bg {
-    position: absolute;
-    z-index: -9999;
-    top:0px;
-
-}
 
 }
 
