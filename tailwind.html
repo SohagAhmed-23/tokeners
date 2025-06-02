@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twailwind css</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <section class="relative">
+  <!-- navbar start here -->
+  <nav class="flex justify-between items-center px-10 py-10">
+    <div class="w-[239px] h-[35px]">
+      <img src="./images/logo.svg" alt="Logo" class="w-full h-full object-contain" />
+    </div>
+
+    <div class="flex items-center gap-[105px]">
+      <div class="text-white font-bold text-sm">
+        <ul class="flex gap-[35px] list-none">
+          <li><a href="#" class="underline underline-offset-2">OUR TEAMS</a></li>
+          <li><a href="#" class="underline underline-offset-2">TOKENS</a></li>
+          <li><a href="#" class="underline underline-offset-2">CONNECT WALLETS</a></li>
+          <li><a href="#" class="underline underline-offset-2">LIGHT PAPERS</a></li>
+        </ul>
+      </div>
+
+      <div class="flex items-center gap-8 text-white font-bold text-sm">
+        <ul class="flex list-none gap-[35px]">
+          <li><a href="#" class="underline-offset-2">SIGN IN</a></li>
+        </ul>
+        <button class="bg-white text-black w-[147px] h-[48px] rounded-[50px] font-semibold">SIGN UP</button>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end here -->
+
+  <!-- Hero section start here -->
+  <div class="flex justify-between items-start flex-wrap w-[86%] mx-auto gap-8 h-screen">
+    <div class="w-[39%] min-w-[400px]">
+      <div class="py-[120px]">
+        <p class="text-[#2278D4] text-[18px] font-bold leading-[40px] mb-5">At Tokners are</p>
+        <h1 class="text-[#191B21] text-[48px] font-medium leading-[1.2] mb-[30px]">
+          Reimagining social media through the power of the blockchain.
+        </h1>
+        <p class="text-[#191B21] text-[16px] font-light leading-[1.6] mb-[45px]">
+          We are creating social media 3.0 with influencers, celebrities and creators being able
+          to launch their own digital currency by simply creating a profile with media content
+          posted as Non fungible Tokens that can be owned and traded on the Tokners network
+        </p>
+        <button class="bg-[#22A75D] hover:bg-green-700 text-white w-[147px] h-[48px] rounded-[50px] font-semibold">
+          LEARN MORE
+        </button>
+      </div>
+    </div>
+
+    <div class="w-[57%] min-w-[600px] flex justify-center items-start gap-4 relative">
+      <img src="./images/image-man1.svg" alt="image-man1"
+        class="absolute w-[420px] max-w-[80%] left-[260px] z-[10000]" />
+      <img src="./images/image-man2.svg" alt="image-man2"
+        class="absolute w-[600px] max-w-full right-[-120px] z-[-1]" />
+    </div>
+  </div>
+  <!-- Hero section end here -->
+
+  <!-- Background images -->
+<div class="absolute top-0 right-0 z-[-1000] w-full h-full pointer-events-none">
+  <img src="./images/hero-bg-1.svg" alt="hero-bg-1" class="absolute top-0 right-0 z-[-99]" />
+  <img src="./images/hero-bg-2.svg" alt="hero-bg-2" class="absolute top-0 right-0 z-[-999]" />
+  <img src="./images/hero-bg-3.svg" alt="hero-bg-3" class="absolute top-0 right-0 z-[-9999]" />
+  <img src="./images/hero-bg-4.svg" alt="hero-bg-4" class="absolute top-0 right-0 z-[-99999]" />
+</div>
+</section>
+<section class="relative featurelist">
+  <!-- Background images -->
+  <div class="absolute left-0 top-[425px] w-full z-[-1] overflow-x-hidden">
+    <img src="./images/feature-bg-1.svg" alt="background image1" class="w-full object-cover" />
+  </div>
+  <div class="absolute left-0 top-[1000px] w-full z-[-1] overflow-x-hidden">
+    <img src="./images/feature-bg-2.svg" alt="background image2" class="w-full object-cover" />
+  </div>
+
+  <!-- Unique Features -->
+  <div class="flex justify-center items-center w-full min-w-full gap-[30px] unique-features">
+    <!-- Feature 1 -->
+    <div class="flex flex-col items-center m-[50px_0] w-[777px] h-[930px] rounded-[25px] bg-[#F2F0F4] relative opacity-[0.98] overflow-hidden features">
+      <p class="py-[45px] font-thin text-[12px] leading-[54px] opacity-60 number">01</p>
+      <h3 class="font-medium text-[36px] leading-[54px] text-[#191B21] client">
+        For <span class="creators text-[#22A75D] underline underline-offset-[6px] decoration-2">Creators</span>
+      </h3>
+      <p class="font-thin text-[16px] leading-[24px] pt-[30px] pb-[80px] pl-[30px] pr-[50px] text-center text-[#191B21] opacity-60 client-details">
+        Creators can gain independence through a decentralised digital currency system that is
+        dependent on growing and engaging with the community and also their star power. They own
+        10-15% of the total value of the tokens minted.
+      </p>
+      <img class="w-[460px] h-[640px] creatorsImg" src="./images/creators.svg" alt="Creators">
+    </div>
+    <!-- Feature 2 -->
+    <div class="flex flex-col items-center m-[50px_0] w-[777px] h-[930px] rounded-[25px] bg-[#F2F0F4] relative opacity-[0.98] overflow-hidden features">
+      <p class="py-[45px] font-thin text-[12px] leading-[54px] opacity-60 number">02</p>
+      <h3 class="font-medium text-[36px] leading-[54px] text-[#191B21] client">
+        For <span class="builder text-[#2278d4] underline underline-offset-[6px] decoration-2">Builder</span>
+      </h3>
+      <p class="font-thin text-[16px] leading-[24px] pt-[30px] pb-[80px] pl-[30px] pr-[50px] text-center text-[#191B21] opacity-60 client-details">
+        Holding social tokens allows the individual to gain access to benefits including unreleased
+        content, private communities, direct access to celebrity, early-access to tickets and more as well
+        as the ability to trade with other communities in order to gain access to more creator content with
+        early token buyers being the biggest winners as the value of the token increases with more buyers.
+      </p>
+      <img class="absolute right-[40px] bottom-0 w-[460px] h-[640px] builderImg" src="./images/builder.svg" alt="Builder">
+    </div>
+  </div>
+
+  <!-- Feature Content -->
+  <div class="flex justify-center items-start py-[80px] text-[#F2F0F4] w-[80%] mx-auto gap-[20px] feature-content">
+    <div class="w-logo flex w-[45%] items-start justify-center gap-[70px]">
+      <img class="w-logo-img w-[55px] h-[34px]" src="./images/logoW.svg" alt="w-logo image">
+      <h1 class="feature-title font-medium text-[48px] leading-[54px] text-[#F7F5F9]">What makes us different?</h1>
+    </div>
+    <div class="text-info w-[55%]">
+      <h3 class="content-heading font-medium text-[16px] leading-[20px] text-white opacity-60 mb-[20px]">
+        We would only launch tokens with the express permission of the creators.
+      </h3>
+      <p class="content-para max-w-[80%] font-medium text-[16px] leading-[24px] opacity-60">
+        There are several thousand celebrities and creators on twitter, tiktok, Instagram and YouTube with followings
+        in the millions who we would be <span class="font-black">actively engaging</span> before we go viral.
+        <br><br>
+        We would get them on our platform and they would see the opportunity to create a fan driven digital economy where their digital content
+        can be traded as NFTs and their most loyal fans can have the monetary value of their creator's currency increase
+        <span class="font-black">significantly</span> as they promote their digital currency
+        across their channels while our native token holders benefit from the Tokners popularity.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- Quarter Section -->
+<section class="max-w-[80%] ml-auto mr-auto mt-[400px] relative  overflow-hidden">
+  <div class="flex gap-[317px]">
+    <div class="quarter">
+      <p class="font-bold text-[16px] leading-[54px] text-[#22A75D]">Q1</p>
+      <p class="font-medium text-[36px] leading-[54px]">2021</p>
+      <div class="ml-[7px] w-[9px] h-[9px] rounded-full bg-[#22A75D]"></div>
+    </div>
+    <div class="quarter">
+      <p class="font-bold text-[16px] leading-[54px] text-[#22A75D]">Q2</p>
+      <p class="font-medium text-[36px] leading-[54px]">2021</p>
+      <div class="ml-[7px] w-[9px] h-[9px] rounded-full bg-[#22A75D]"></div>
+    </div>
+    <div class="quarter">
+      <p class="font-bold text-[16px] leading-[54px] text-[#22A75D]">Q3</p>
+      <p class="font-medium text-[36px] leading-[54px]">2021</p>
+      <div class="ml-[7px] w-[9px] h-[9px] rounded-full bg-[#22A75D]"></div>
+    </div>
+    <div class="quarter">
+      <p class="font-bold text-[16px] leading-[54px] text-[#22A75D]">Q4</p>
+      <p class="font-medium text-[36px] leading-[54px]">2021</p>
+      <div class="ml-[7px] w-[9px] h-[9px] rounded-full bg-[#22A75D]"></div>
+    </div>
+  </div>
+
+  <div class="ml-[10px]">
+    <img src="./images/quarter.svg" alt="">
+  </div>
+
+  <div class="absolute w-[257px] h-[155px] top-[0px] right-[-80px]">
+    <img class="w-full h-full" src="./images/air.svg" alt="air">
+  </div>
+
+  <div class="min-w-full pt-[100px] flex justify-start gap-[130px]">
+    <div class="quarter-list">
+      <div class="flex flex-col gap-[20px]">
+        <div class="flex justify-start gap-[20px]">
+          <span class="font-bold text-[12px] leading-[34px] text-[#2278D4]">01</span>
+          <p class="font-normal text-[16px] leading-[30px] text-[#191B21] opacity-[0.7]">Team set-up</p>
+        </div>
+        <div class="flex justify-start gap-[20px]">
+          <span class="font-bold text-[12px] leading-[34px] text-[#2278D4]">02</span>
+          <p class="font-normal text-[16px] leading-[30px] text-[#191B21] opacity-[0.7]">Launch of informational website</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="quarter-list">
+      <div class="flex flex-col gap-[20px]">
+        <div class="flex justify-start gap-[20px]">
+          <span class="font-bold text-[12px] leading-[34px] text-[#2278D4]">01</span>
+          <p class="font-normal text-[16px] leading-[30px] text-[#191B21] opacity-[0.7]">Presale and exchange listings</p>
+        </div>
+        <div class="flex justify-start gap-[20px]">
+          <span class="font-bold text-[12px] leading-[34px] text-[#2278D4]">02</span>
+          <p class="font-normal text-[16px] leading-[30px] text-[#191B21] opacity-[0.7]">Blockchain development and launch</p>
+        </div>
+        <div class="flex justify-start gap-[20px]">
+          <span class="font-bold text-[12px] leading-[34px] text-[#2278D4]">03</span>
+          <p class="font-normal text-[16px] leading-[30px] text-[#191B21] opacity-[0.7]">Launch of our MVP</p>
+        </div>
+        <div class="flex justify-start gap-[20px]">
+          <span class="font-bold text-[12px] leading-[34px] text-[#2278D4]">04</span>
+          <p class="font-normal text-[16px] leading-[30px] text-[#191B21] opacity-[0.7]">Influencer agency partnerships</p>
+        </div>
+        <div class="flex justify-start gap-[20px]">
+          <span class="font-bold text-[12px] leading-[34px] text-[#2278D4]">05</span>
+          <p class="font-normal text-[16px] leading-[30px] text-[#191B21] opacity-[0.7]">Marketing and promotion</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="quarter-list">
+      <div class="flex flex-col gap-[20px]">
+        <div class="flex justify-start gap-[20px]">
+          <span class="font-bold text-[12px] leading-[34px] text-[#2278D4]">01</span>
+          <p class="font-normal text-[16px] leading-[30px] text-[#191B21] opacity-[0.7]">Celebrity, Creator and Influencer partnerships</p>
+        </div>
+        <div class="flex justify-start gap-[20px]">
+          <span class="font-bold text-[12px] leading-[34px] text-[#2278D4]">02</span>
+          <p class="font-normal text-[16px] leading-[30px] text-[#191B21] opacity-[0.7]">Expansion of creator communities on our platform</p>
+        </div>
+        <div class="flex justify-start gap-[20px]">
+          <span class="font-bold text-[12px] leading-[34px] text-[#2278D4]">05</span>
+          <p class="font-normal text-[16px] leading-[30px] text-[#191B21] opacity-[0.7]">More Marketing and promotion</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="quarter-list">
+      <div class="flex flex-col gap-[20px]">
+        <div class="flex justify-start gap-[20px]">
+          <span class="font-bold text-[12px] leading-[34px] text-[#2278D4]">01</span>
+          <p class="font-normal text-[16px] leading-[30px] text-[#191B21] opacity-[0.7]">Mainstream partnerships</p>
+        </div>
+        <div class="flex justify-start gap-[20px]">
+          <span class="font-bold text-[12px] leading-[34px] text-[#2278D4]">01</span>
+          <p class="font-normal text-[16px] leading-[30px] text-[#191B21] opacity-[0.7]">500 active creator communities</p>
+        </div>
+        <div class="flex justify-start gap-[20px]">
+          <span class="font-bold text-[12px] leading-[34px] text-[#2278D4]">01</span>
+          <p class="font-normal text-[16px] leading-[30px] text-[#191B21] opacity-[0.7]">2Million active community members</p>
+        </div>
+        <div class="flex justify-start gap-[20px]">
+          <span class="font-bold text-[12px] leading-[34px] text-[#2278D4]">01</span>
+          <p class="font-normal text-[16px] leading-[30px] text-[#191B21] opacity-[0.7]">More Marketing and promotion</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+    
+</body>
+</html>
